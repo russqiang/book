@@ -1,0 +1,101 @@
+Java基础
+	1.抽象类和接口区别
+	2.Java多态是什么？手写一个多态的实现，多态又是为了实现什么？
+	3.重载和重写区别，重载和重写是为了实现什么目标？
+	4.生产者消费者手写
+	5.HashMap，HashTable，ConcurrentHashmap区别，底层源码
+	6.String判等。
+	7.java 泛型
+	8.java集合的类层次关系，各种集合容器简单介绍一下。
+	9.集合类有什么，HashMap与Hashtable区别（源码具体参数），hashMap原理 jdk1.7 和1.8加了红黑树，红黑树概念
+	10.给出2个kv实例，描述hashmap.put()过程。
+	11.任何自定义类都能作为hashmap的key吗？有什么要求？如何实现？
+	12.hashmap的底层实现原理，桶的实现原理
+	13.HashMap扩容过程，初始容量，和HashTable的区别
+	14.写代码，判断链表是否有环。
+	15.Java中String，StringBuffer，StringBuilder区别
+	16.阻塞队列(LinkedBlockQueue、ArrayBlockQueue)
+	17.javaIO流
+	18.Final finally的区别
+	19.java集合类:list、set、HashMap、treeMap等
+	20.讲一下你知道的java.util.concurrent包下的类
+	21.HashMap和TreeMap的区别
+	22.使用数组实现一个队列，写java代码
+Mysql
+	1.数据库三大范式，他问我知道第四范式吗？
+	2.触发器和存储过程区别
+	3.主要说了最左前缀，like，唯一索引，短索引，or条件需要两个都加索引，覆盖索引，分表。
+	4.MySQL索引和查询优化
+	5.SQL查询语句手写
+	6.数据库驱动为什么使用反射调用不直接new
+	7.常见的索引结构。
+	8.mysql主键和其他索引的区别。
+	9.数据量巨大时，如何分库分表，场景、条件及实现方式。
+	10.MySQL引擎介绍一下
+	11.MySQL怎么做查询优化？最左前缀原则
+	12.项目中除了加索引还用过什么优化查询的方式
+	13.JDBC了解不（可能是问5种事务隔离级别）
+	14.数据库事务CAID
+	15.MySQL数据量巨大，怎么优化（我答的分库分表，横向和纵向分表）
+	16.mysql有哪些引擎，区别
+	17.mysql索引，主键索引和非主键索引的区别
+	18.mysql和mongodb的区别
+	19.数据库索引怎么实现的
+	20.b树和b+树的区别
+	21.mysql的视图和表
+	22.你熟悉SQL吗？那你说说有哪些表连接方式？有什么区别    答：左连接 右连接 外连接 内连接
+	23.那用过MySQL函数吗？count和sum对表单是null值有啥区别吗？
+	24.数据库连接池有没了解，解释下它的参数，最大连接数怎么配置比较合理
+	25.怎么判断数据库死锁，死锁的处理方式
+Spring
+	1.spring的bean生命周期
+	2.为什么用spring框架，有什么优点
+	3.Spring IoC和AOP介绍一下，spring IOC的作用，IOC有什么好处
+	4.spring事务写在哪一部分，为什么不写在DAO,Controller层
+	5.Spring的AOP？拦截器用来做什么？哪些场景需要用拦截器？
+	6.Spring用过什么注解，Spring注解有哪些
+	7.Spring，Spring Boot，Spring Cloud有什么区别
+	8.spring MVC的运行流程
+	9.spring除了注解注入还有什么方式
+Mybatis
+	1.Mybatis缓存
+	2.Mybatis批量查询手写
+设计模式
+	1.设计模式问了单例模式实现，优缺点，Java单例模式有哪些，手写线程安全的单例模式
+JVM
+	1.垃圾回收算法，jvm的垃圾回收机制，GC机制讲一讲
+	2.java类加载过程
+	3.什么是java内存泄漏？内存泄漏的情况有哪些，举几个例子。
+	4.classpath，path的区别
+	5.JVM运行过程
+	6.static方法在哪个内存区域。
+	7.介绍JVM堆和栈，有什么用，A a = new A()；各放在哪个位置
+Http、TCP、UDP
+	1.http ，https区别
+	2.RESTful API哪些是幂等的，什么是幂等
+	3.TCP三次握手和四次挥手
+	4.TCP,UDP,简单说一下不同就行，不深入
+多线程、锁
+	1.线程池构造器的参数和作用
+	2.了解Java是吧，那Java怎么开启线程的（大概是这个意思吧）
+	3.写代码，使2个线程出现死锁情况。
+	4.Java多线程方式（Thread，Runnable，Callable最好会手写）
+	6.线程的run方法和start方法有什么区别
+	7.sleep和wait有什么区别
+微服务、Dubbo
+	1.分布式dubbo讲了解，序列化方式，协议
+	2.谈一谈你对微服务的理解
+	3.消息队列缓解并发但是需要用户等待怎么解决
+	4.Nginx负载均衡导致用户两次调用服务不在一个IP上，怎么保持连接
+Redis
+	1.redis事务
+	2.集群如何管理session。
+	3.redis实现分布式锁？
+	 
+	4.Redis应用场景，如何实现限流
+	5.kafka应用场景（自己如何使用的）
+算法
+	1.排序算法（冒泡，插入，选择，归并，希尔，快排，堆排）
+	2.解释归并排序原理（手写），是不是稳定的
+	3.什么是稳定排序
+	4.说一下冒泡排序原理
